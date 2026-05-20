@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leonex - Svenska</title>
-    <link class="stylesheet" href="https://static.websitebuilder-cdn.com/576400cc5f5b2582/static/styles/main.cc6d735d.css" />
-    <link class="stylesheet" href="https://static.websitebuilder-cdn.com/576400cc5f5b2582/static/styles/fonts.0dc01eb2.css" />
+    <link rel="stylesheet" href="https://static.websitebuilder-cdn.com/576400cc5f5b2582/static/styles/main.cc6d735d.css" />
+    <link rel="stylesheet" href="https://static.websitebuilder-cdn.com/576400cc5f5b2582/static/styles/fonts.0dc01eb2.css" />
+    <link rel="icon" href="https://static.websitebuilder-cdn.com/576400cc5f5b2582/media/img/favicon-32.b4e21c8f9c5832f6.png" />
 </head>
 <body>
-    <div data-theme="default">
-        <header id="header" class="relative bg-base-100 border-b border-base-border">
+    <div data-theme="default" class="bg-base-100 min-h-screen text-base-content font-sans antialiased">
+        
+        <header id="header" class="sticky top-0 z-50 bg-base-100/90 backdrop-blur border-b border-base-border">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="flex h-20 items-center justify-between gap-6">
                     <div class="flex items-center gap-3">
@@ -18,21 +20,47 @@
                             <span class="text-lg font-semibold tracking-tight text-base-content">Leonex</span>
                         </a>
                     </div>
+                    <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-base-content-secondary">
+                        <a href="#core-services" class="transition-colors hover:text-base-content">Tjänster</a>
+                        <a href="#footer" class="transition-colors hover:text-base-content">Yhteystiedot</a>
+                    </nav>
                     <div class="hidden lg:flex items-center gap-4">
-                        <div class="flex items-center gap-2 rounded-full border border-base-border-secondary bg-base-100 px-3 py-1 text-xs font-semibold text-base-content-secondary">
-                            <a href="../" class="text-base-content-tertiary hover:text-base-content">FI</a>
-                            <a href="../en/" class="text-base-content-tertiary hover:text-base-content">EN</a>
-                            <a href="./" class="text-base-content font-bold">SV</a>
+                        <div class="flex items-center gap-3 rounded-full border border-base-border bg-base-100 px-4 py-1.5 text-xs font-semibold">
+                            <a href="../" class="text-base-content-secondary hover:text-base-content">FI</a>
+                            <a href="../en/" class="text-base-content-secondary hover:text-base-content">EN</a>
+                            <a href="./" class="text-primary font-bold">SV</a>
                         </div>
+                        <a href="#footer" class="inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-content transition-colors hover:bg-primary/90">Begär kartläggning</a>
                     </div>
                 </div>
             </div>
         </header>
 
-        <section id="hero" class="relative bg-base-100 py-16 text-center">
-            <h1 class="text-4xl font-bold text-base-content">Pålitlig partner för affärskritiska tjänster</h1>
-            <p class="mt-4 text-base text-base-content-secondary max-w-2xl mx-auto">Leonex tryggar verksamhetens kontinuitet inom Trading, ICT och Avtalstjänster.</p>
+        <section id="hero" class="relative bg-base-100 py-16 sm:py-20 lg:py-24">
+            <div class="relative z-10 mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 px-6 lg:grid-cols-[1.1fr_0.9fr] lg:gap-12 lg:px-8">
+                <div>
+                    <p class="text-sm font-semibold uppercase tracking-[0.2em] text-base-content-secondary">Leonex Monitjänstekoncern</p>
+                    <h1 class="mt-4 text-4xl font-bold tracking-tight text-base-content sm:text-5xl lg:text-6xl">
+                        Pålitlig partner för affärskritiska tjänstehelheter
+                    </h1>
+                    <p class="mt-5 text-base leading-relaxed text-base-content-secondary sm:text-lg">
+                        Leonex tryggar verksamhetens kontinuitet och snabb service. Inom Trading, ICT och Avtalstjänster levererar vi pålitligt utförande, tydligt ansvar och lösningar som stöder ert arbetssätt.
+                    </p>
+                    <div class="mt-8 flex flex-wrap gap-4">
+                        <a href="#core-services" class="inline-flex items-center justify-center rounded-md bg-primary px-5 py-3 text-sm font-semibold text-primary-content transition hover:bg-primary/90">Bekanta dig med tjänsterna</a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="rounded-2xl border border-base-border bg-base-200/80 p-3 shadow-sm">
+                        <img src="https://static.websitebuilder-cdn.com/576400cc5f5b2582/media/img/hero-boardroom.fbc99840253d45b3b259ffa568a44a61.291a7914dbd7b44c.386c1541.png" alt="Modern corporate boardroom" class="h-72 w-full rounded-xl object-cover sm:h-80 lg:h-[22rem]">
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <footer id="footer" class="bg-base-100 border-t border-base-border py-12 text-center text-sm text-base-content-secondary">
+            <p>&copy; 2026 Leonex. Alla rättigheter förbehållna.</p>
+        </footer>
     </div>
 </body>
 </html>
