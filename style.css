@@ -12,8 +12,8 @@ body {
 details summary::-webkit-details-marker {
   display: none;
 }
-details[open] summary span:last-child {
-  transform: rotate(45deg);
+details summary {
+  list-style: none;
 }
 
 /* Interactive Forms UI overrides */
