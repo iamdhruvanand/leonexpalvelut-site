@@ -8,6 +8,31 @@ body {
   padding: 0;
 }
 
+/* Header Styling - Ericsson inspired dark theme */
+#header {
+  background-color: #1a2f3f !important;
+  border-bottom: 2px solid #0d1b28 !important;
+}
+
+#header .flex.items-center.gap-3 a .text {
+  color: #ffffff !important;
+  font-size: 24px !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.5px;
+}
+
+#header span {
+  color: #ffffff !important;
+}
+
+#header nav a {
+  color: #b8c5d6 !important;
+}
+
+#header nav a:hover {
+  color: #ffffff !important;
+}
+
 /* Accordion Component UI Optimization */
 details summary::-webkit-details-marker {
   display: none;
